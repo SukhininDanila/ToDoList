@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Список дел</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="jquery-3.4.1.min.js"></script>
+	<script src="script.js"></script>
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<main>
+	  <section class="list">
+	    <h2>Список дел: </h2>
+	    <p id="empty">Список пуст...</p>
+
+	  </section>
+
+	  <section class="business">
+	    <h2>Добавить новое дело</h2>
+	    <form method="post" action="" class="form">
+	      <label for="name" class="form-label">* Название</label>
+				<input type="text" id="name" required="required" class="form-text" placeholder="Купить лошадь">
+	      <label for="declaration" class="form-label">* Описание</label>
+	      <textarea id="declaration" required="required" class="form-textarea" placeholder="По цене"></textarea>
+	      <input type="submit" value="Добавить дело" class="button">
+	    </form>
+	  </section>
+	</main>
+
+</body>
+</html>
